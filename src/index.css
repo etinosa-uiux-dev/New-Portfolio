@@ -18,3 +18,30 @@ html {
 .interest-float {
   animation: interestFloat 4s ease-in-out infinite;
 }
+
+@keyframes modalIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.96);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+
+/* 
+  
+sm	40rem (640px)	
+md	48rem (768px)	
+lg	64rem (1024px)	
+xl	80rem (1280px)	
+2xl	96rem (1536px)	
+
+*/
+
+/* @theme {
+  --breakpoint-
+} */
