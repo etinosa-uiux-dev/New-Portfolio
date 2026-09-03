@@ -89,7 +89,7 @@ function Footer() {
       <footer id="contact" className="relative overflow-hidden bg-neutral-950 px-5 pb-8 pt-24 text-white sm:px-8">
 
         {/* Top border */}
-        <div className="mx-auto max-w-7xl border-t border-white/[0.08] pt-10">
+        <div className="mx-auto max-w-7xl border-t border-white/8 pt-10">
 
           <div className="flex flex-col items-center justify-between gap-10 md:flex-row">
 
@@ -120,7 +120,7 @@ function Footer() {
                     cursor-pointer
                     flex h-12 w-12 items-center justify-center
                     rounded-full
-                    border border-white/[0.08]
+                    border border-white/8
                     bg-neutral-900/70
                     text-neutral-400
                     backdrop-blur-md
@@ -139,7 +139,7 @@ function Footer() {
           </div>
 
           {/* Bottom */}
-          <div className="mt-16 flex flex-col items-center justify-between gap-5 border-t border-white/[0.06] pt-6 text-xs text-neutral-600 sm:flex-row">
+          <div className="mt-16 flex flex-col items-center justify-between gap-5 border-t border-white/6 pt-6 text-xs text-neutral-600 sm:flex-row">
 
             <p>
               © {new Date().getFullYear()} Etinosa. All rights reserved.
@@ -299,7 +299,7 @@ const ContactModal = ({ type, closeModal }) => {
 
   return (
     <div
-      className="fixed inset-0 z-[100] flex items-center justify-center bg-black/70 px-5 backdrop-blur-md"
+      className="fixed inset-0 z-100 flex items-center justify-center bg-black/70 px-5 backdrop-blur-md"
       onMouseDown={(event) => {
         if (event.target === event.currentTarget) {
           closeModal();
@@ -360,7 +360,7 @@ const ContactModal = ({ type, closeModal }) => {
 
             <a
               href={`tel:${contactInfo.phone1}`}
-              className="flex items-center justify-between rounded-2xl border border-white/[0.08] bg-white/[0.03] p-4 transition hover:border-orange-500/40"
+              className="flex items-center justify-between rounded-2xl border border-white/8 bg-white/3 p-4 transition hover:border-orange-500/40"
             >
               <span className="text-sm text-neutral-300">
                 {contactInfo.phone1}
@@ -373,7 +373,7 @@ const ContactModal = ({ type, closeModal }) => {
 
             <a
               href={`tel:${contactInfo.phone2}`}
-              className="flex items-center justify-between rounded-2xl border border-white/[0.08] bg-white/[0.03] p-4 transition hover:border-orange-500/40"
+              className="flex items-center justify-between rounded-2xl border border-white/8 bg-white/3 p-4 transition hover:border-orange-500/40"
             >
               <span className="text-sm text-neutral-300">
                 {contactInfo.phone2}
