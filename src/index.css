@@ -42,6 +42,8 @@ xl	80rem (1280px)
 
 */
 
-/* @theme {
-  --breakpoint-
-} */
+@theme {
+  /* For about section */
+  --breakpoint-a1: 29rem;
+  --breakpoint-a2: 32.75rem;
+}

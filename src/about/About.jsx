@@ -7,7 +7,7 @@ const interests = [
     label: "Chess",
     text: "I love the strategy, the challenge, and seeing how far the mind can work.",
     position:
-      "top-[3%] left-[5%] md:top-[5%] md:left-[7%] lg:top-[5%] lg:left-[10%]",
+      "top-[1%] left-[5%] a1:left-[25%] ",
     delay: "0s",
   },
 
@@ -17,7 +17,7 @@ const interests = [
     label: "Football",
     text: "I'm in love with the beautiful game. I watch it, I play it, and I enjoy every bit of it.",
     position:
-      "top-[25%] right-[3%] md:top-[27%] md:right-[6%] lg:top-[28%] lg:right-[9%]",
+      "top-[1%] right-[3%]",
     delay: "1s",
   },
 
@@ -27,7 +27,7 @@ const interests = [
     label: "Music",
     text: "Music helps me focus, sets the mood, and makes long hours of work better.",
     position:
-      "bottom-[13%] left-[4%] md:bottom-[10%] md:left-[6%] lg:bottom-[10%] lg:left-[8%]",
+      "bottom-[1%] left-[3%]",
     delay: "1.8s",
   },
 
@@ -37,7 +37,7 @@ const interests = [
     label: "Gaming",
     text: "Sometimes I just want to switch off, pass time, and enjoy a good game.",
     position:
-      "bottom-[4%] right-[5%] md:bottom-[4%] md:right-[8%] lg:bottom-[5%] lg:right-[12%]",
+      "bottom-[1%] right-[5%]",
     delay: "2.5s",
   },
 
@@ -47,7 +47,7 @@ const interests = [
     label: "Chelsea",
     text: "A die-hard fan of London's finest. No explanation necessary. 💙",
     position:
-      "top-[50%] left-[2%] md:top-[52%] md:left-[5%] lg:top-[53%] lg:left-[13%]",
+      "top-[35%] left-[1%]",
     delay: "0.5s",
   },
 ];
@@ -56,7 +56,7 @@ function About() {
   return (
     <section
       id="about"
-      className="relative overflow-hidden bg-neutral-950 px-5 py-32 text-white sm:px-8 md:py-40"
+      className="relative overflow-hidden bg-neutral-950 px-5 py-28 text-white sm:px-8 md:py-40"
     >
       <div className="mx-auto max-w-7xl">
 

@@ -18,14 +18,48 @@ function Header() {
                 </div>
 
                 {/* Navigation */}
-                <button className="text-lg leading-none cursor-pointer">
-                    ☰
-                </button>
+                <a
+                href="#contact"
+                aria-label="Go to contact"
+                className="
+                    group
+                    flex h-8 w-8
+                    items-center justify-center
+                    rounded-full
+                    border border-white/10
+                    bg-neutral-900/80
+                    text-white
+                    backdrop-blur-md
+                    transition-all duration-300
+                    hover:-translate-y-1
+                    hover:border-amber-700
+                    hover:bg-amber-900
+                "
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        className="
+                        h-4 w-4
+                        transition-transform duration-300
+                        group-hover:translate-x-0.5
+                        group-hover:translate-y-0.5
+                        "
+                        aria-hidden="true"
+                    >
+                        <path
+                        d="M5 5L19 19M19 19V8M19 19H8"
+                        stroke="currentColor"
+                        strokeWidth="1.8"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        />
+                    </svg>
+                </a>
             </nav>
         </header>
     );
 }
 
 export default Header;
-
-// left-1/12 -translate-x-1/2
