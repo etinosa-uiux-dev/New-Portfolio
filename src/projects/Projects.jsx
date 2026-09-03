@@ -60,11 +60,11 @@ function Projects() {
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => (
             <article
-              className="group overflow-hidden rounded-[28px] border border-white/[0.06] bg-neutral-900/60 transition-all duration-500 hover:-translate-y-2 hover:border-orange-500/20"
+              className="group overflow-hidden rounded-[28px] border border-white/6 bg-neutral-900/60 transition-all duration-500 hover:-translate-y-2 hover:border-orange-500/20"
             >
 
               {/* Image */}
-              <div className="relative aspect-[16/10] overflow-hidden rounded-2xl bg-neutral-800">
+              <div className="relative aspect-16/10 overflow-hidden rounded-2xl bg-neutral-800">
                 
                 {/* Blurred background */}
                 <img
@@ -81,7 +81,7 @@ function Projects() {
                 />
 
                 {/* Dark overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-70" />
+                <div className="absolute inset-0 bg-linear-to-t from-black/50 via-transparent to-transparent opacity-70" />
 
                 {/* Project number */}
                 <span className="absolute left-5 top-5 flex h-10 w-10 items-center justify-center rounded-full border border-white/20 bg-black/30 text-xs backdrop-blur-md">
@@ -104,7 +104,7 @@ function Projects() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={`View ${project.name} on GitHub`}
-                    className="absolute bottom-5 right-[4.5rem] flex h-11 w-11 items-center justify-center rounded-full border border-white/20 bg-black/50 text-white backdrop-blur-md transition-all duration-300 hover:scale-110 hover:bg-white hover:text-black"
+                    className="absolute z-20 bottom-5 right-18 flex h-11 w-11 items-center justify-center rounded-full border border-white/20 bg-black/50 text-white backdrop-blur-md transition-all duration-300 hover:scale-110 hover:bg-white hover:text-black"
                   >
                     <svg
                       viewBox="0 0 24 24"
@@ -133,7 +133,7 @@ function Projects() {
                   {project.technologies.map((technology) => (
                     <span
                       key={technology}
-                      className="rounded-full border border-white/[0.08] px-3 py-1.5 text-[11px] text-neutral-400"
+                      className="rounded-full border border-white/8 px-3 py-1.5 text-[11px] text-neutral-400"
                     >
                       {technology}
                     </span>
