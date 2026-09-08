@@ -1,11 +1,13 @@
 const projects = [
   {
     number: "01",
-    name: "Project One",
+    name: "Activty Tracker",
     description:
-      "A clean digital experience designed to make information simple, intuitive and enjoyable to explore.",
-    technologies: ["React", "Tailwind CSS", "Figma"],
-    image: "/images/project-1.jpg",
+      "Tempo is a simple activity tracker that helps you understand where your time goes. Visualize your habits, track your goals, and make smarter choices for a more intentional day.",
+    technologies: ["React", "Tailwind CSS"],
+    image: "/images/tempo.jpg",
+    link: "https://activity-tracker-xi-topaz.vercel.app/",
+    githubLink: "https://github.com/etinosa-uiux-dev/Activity-Tracker.git",
   },
   {
     number: "02",
@@ -13,7 +15,7 @@ const projects = [
     description:
       "Design of a simple Computer-based exam interface.",
     technologies: ["Figma", "UI/UX"],
-    image: "/images/project-2.jpg",
+    image: "/images/easy-exams.jpg",
     type: "figma",
     link: "https://www.figma.com/proto/UKxa4TJk5160BK6ppsn5l0/Easy-Exams?node-id=0-1&t=jtWrsuxyvFanveaL-1",
     githubLink: null,
@@ -84,7 +86,7 @@ function Projects() {
                 <div className="absolute inset-0 bg-linear-to-t from-black/50 via-transparent to-transparent opacity-70" />
 
                 {/* Project number */}
-                <span className="absolute left-5 top-5 flex h-10 w-10 items-center justify-center rounded-full border border-white/20 bg-black/30 text-xs backdrop-blur-md">
+                <span className="absolute z-20 left-5 top-5 flex h-10 w-10 items-center justify-center rounded-full border border-white/20 bg-black/30 text-xs backdrop-blur-md">
                   {project.number}
                 </span>
 
