@@ -34,7 +34,7 @@ const projects = [
     number: "04",
     name: "Weather App",
     description:
-      "A simple job application site with a few selected fields and branches.",
+      "A responsive weather website powered by a weather API, allowing users to search for any location and view real-time weather conditions such as temperature, humidity, wind speed, and more.",
     technologies: ["HTML", "CSS", "JavaScript"],
     image: "/images/weather-app.jpg",
     link: "https://weather-app-psi-liart-72.vercel.app/",
@@ -50,6 +50,16 @@ const projects = [
     type: "figma",
     link: "https://www.figma.com/design/7xi2EE7c1MR09HFwOXIRfk/Lounge?node-id=0-1&t=tznJLau1WvYz9df0-1",
     githubLink: null,
+  },
+  {
+    number: "06",
+    name: "Netflix Clone",
+    description:
+      "A simple job application site with a few selected fields and branches.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    image: "/images/netflix-clone.jpg",
+    link: "https://netflix-clone-omega-cyan-55.vercel.app/",
+    githubLink: "https://github.com/etinosa-uiux-dev/Netflix-Clone.git",
   },
 ];
 
