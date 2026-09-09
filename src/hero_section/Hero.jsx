@@ -8,7 +8,7 @@ function Hero() {
         >
             {/* Image */}
             <div 
-            className=" border-white-500 h-[80%] w-[40%] bg-center bg-cover absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border-r border-r-amber-900" 
+            className="h-[80%] w-[40%] bg-center bg-cover absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border-r border-r-amber-900" 
             style={{ backgroundImage: `url(${hero_bg})` }}
             />
 
@@ -25,7 +25,7 @@ function Hero() {
                             Available for Work
                         </span>
 
-                        <h1 className="max-w-xl text-4-xl font-medium leading-tight md:text-5xl">
+                        <h1 className="max-w-xl text-4xl font-medium leading-tight md:text-5xl">
                             <span className="text-transparent [-webkit-text-stroke:3px_#78350F]">UI/</span>UX Designer <br />
                             & Frontend Developer <br />
                             based in Nigeria
@@ -56,7 +56,7 @@ function Hero() {
                 {/* Huge name */}
                 <div className="overflow-hidden  flex justify-center">
                     <h2 className="whitespace-nowrap text-[20vw] font-semibold leading-none text-transparent [-webkit-text-stroke:2px_#78350F] font-mono transition-all duration-500
-         hover:tracking-[-0.07em] hover:text-[#78350F]
+         hover:tracking-[-0.07em] hover:text-[#B45309]/30
          hover:[-webkit-text-stroke:0.5px_white]
          hover:drop-shadow-[0_0_15px_#78350F]">
                         Et<span className="text-transparent  [-webkit-text-stroke:2px_#78350F]">i</span>nosa
