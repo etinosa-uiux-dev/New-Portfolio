@@ -22,11 +22,34 @@ const projects = [
   },
   {
     number: "03",
-    name: "Project Three",
+    name: "Ace Jobs",
     description:
-      "A modern interface built from concept to implementation with attention to detail across every screen.",
+      "A simple job application site with a few selected fields and branches.",
     technologies: ["HTML", "CSS", "JavaScript"],
-    image: "/images/project-3.jpg",
+    image: "/images/job-application.jpg",
+    link: "https://job-application-eight-ashy.vercel.app/",
+    githubLink: "https://github.com/etinosa-uiux-dev/Job-application.git",
+  },
+  {
+    number: "04",
+    name: "Weather App",
+    description:
+      "A simple job application site with a few selected fields and branches.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    image: "/images/weather-app.jpg",
+    link: "https://weather-app-psi-liart-72.vercel.app/",
+    githubLink: "https://github.com/etinosa-uiux-dev/Weather-app.git",
+  },
+  {
+    number: "05",
+    name: "Lounge",
+    description:
+      "Design of a simple Computer-based exam interface.",
+    technologies: ["Figma", "UI/UX"],
+    image: "/images/lounge.jpg",
+    type: "figma",
+    link: "https://www.figma.com/design/7xi2EE7c1MR09HFwOXIRfk/Lounge?node-id=0-1&t=tznJLau1WvYz9df0-1",
+    githubLink: null,
   },
 ];
 
