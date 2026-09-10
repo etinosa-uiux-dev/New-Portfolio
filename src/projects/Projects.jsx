@@ -3,7 +3,7 @@ const projects = [
     number: "01",
     name: "Activty Tracker",
     description:
-      "Tempo is a simple activity tracker that helps you understand where your time goes. Visualize your habits, track your goals, and make smarter choices for a more intentional day.",
+      "An activity-tracking web app built with React and Tailwind CSS, designed to help users monitor daily activities, visualize habits, and manage personal goals.",
     technologies: ["React", "Tailwind CSS"],
     image: "/images/tempo.jpg",
     link: "https://activity-tracker-xi-topaz.vercel.app/",
@@ -13,7 +13,7 @@ const projects = [
     number: "02",
     name: "Easy Exams",
     description:
-      "A simple visual design of a computer-based exam interface, showcasing the layout and appearance of key sections such as questions, answer options, navigation, and exam controls.",
+      "A user-focused CBT interface designed in Figma, featuring intuitive question layouts, answer selection, navigation, and exam controls for a smooth testing experience.",
     technologies: ["Figma", "UI/UX"],
     image: "/images/easy-exams.jpg",
     type: "figma",
@@ -24,7 +24,7 @@ const projects = [
     number: "03",
     name: "Ace Jobs",
     description:
-      "A job application website built with HTML, CSS, and JavaScript, featuring selected job roles and branches, a step-by-step application process, and a review section for checking submitted details before final submission.",
+      "A job application platform built with HTML, CSS, and JavaScript, featuring job discovery, role selection, a guided application process, and a review step before submission.",
     technologies: ["HTML", "CSS", "JavaScript"],
     image: "/images/job-application.jpg",
     link: "https://job-application-eight-ashy.vercel.app/",
@@ -34,7 +34,7 @@ const projects = [
     number: "04",
     name: "Weather App",
     description:
-      "A weather website powered by a weather API, allowing users to search for any location and view real-time weather conditions such as temperature, humidity, wind speed, and more.",
+      "A weather application that integrates a live weather API to let users search locations and view current conditions, temperature, humidity, wind speed, and other weather details.",
     technologies: ["HTML", "CSS", "JavaScript"],
     image: "/images/weather-app.jpg",
     link: "https://weather-app-psi-liart-72.vercel.app/",
@@ -44,7 +44,7 @@ const projects = [
     number: "05",
     name: "Lounge",
     description:
-      "A clean and modern online clothing store design created in Figma, featuring a simple user interface, product layouts, and basic wireframes.",
+      "A modern e-commerce clothing concept designed in Figma, combining clean product layouts, intuitive navigation, and simple wireframes to create a streamlined shopping experience.",
     technologies: ["Figma", "UI/UX"],
     image: "/images/lounge.jpg",
     type: "figma",
@@ -53,9 +53,9 @@ const projects = [
   },
   {
     number: "06",
-    name: "Netflix Clone",
+    name: "Movie Discovery Platform",
     description:
-      "A Netflix-inspired movie discovery platform that uses an API to display current trending movies and shows, along with their details and trailers.",
+      "A React-based movie discovery platform that uses an external API to display trending movies and shows, with detailed information and trailer previews.",
     technologies: ["React", "CSS"],
     image: "/images/netflix-clone.jpg",
     link: "https://netflix-clone-omega-cyan-55.vercel.app/",
